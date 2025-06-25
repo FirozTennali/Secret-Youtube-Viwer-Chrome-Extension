@@ -2,7 +2,7 @@
 
 A Chrome extension that allows you to discretely watch YouTube videos in a floating, draggable window on any webpage. The player appears as an advertisement to maintain privacy while watching videos.
 
-![Extension Preview](docs/preview.png)
+![Extension Preview](Secret-Youtube-Viwer-Chrome-Extension.png)
 
 ## Features
 
