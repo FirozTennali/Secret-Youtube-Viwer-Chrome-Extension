@@ -1,4 +1,4 @@
-# Advertisement Player Chrome Extension
+# Secret Youtube Player Chrome Extension
 
 A Chrome extension that allows you to discretely watch YouTube videos in a floating, draggable window on any webpage. The player appears as an advertisement to maintain privacy while watching videos.
 
