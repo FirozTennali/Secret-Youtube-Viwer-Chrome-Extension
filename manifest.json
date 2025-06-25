@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Advertisement Player",
+  "version": "1.0",
+  "description": "Secretly watch videos in an embedded player with keyboard controls",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "web_accessible_resources": [{
+    "resources": ["content.js", "styles.css"],
+    "matches": ["<all_urls>"]
+  }],
+  "commands": {
+    "toggle-player": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Z"
+      },
+      "description": "Toggle player visibility"
+    },
+    "toggle-playback": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space"
+      },
+      "description": "Toggle video playback"
+    },
+    "close-player": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+X"
+      },
+      "description": "Close player"
+    }
+  }
+} 
